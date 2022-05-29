@@ -1,4 +1,68 @@
-.App {
+body {
   font-family: sans-serif;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 6px 10px;
+  margin-top: 3px;
+  outline: none;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 4px 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+  color: rgb(61, 52, 42);
+}
+
+button:hover {
+  background-color: rgb(180, 214, 175);
+  cursor: pointer;
+}
+
+.input-area {
+  background-color: rgb(48, 161, 123);
+  width: 90%;
+  height: 38px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.imcomplete-area {
+  background-color: rgb(192, 132, 52);
+  width: 90%;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.complete-area {
+  background-color: rgb(106, 170, 43);
+  width: 90%;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.title {
   text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: rgb(58, 54, 54);
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(68, 65, 65);
+  margin-top: 5px;
 }
